@@ -16,8 +16,28 @@ public class MyClass {
 
         // Accessing the public field
         System.out.println("Public Field: " + myObject.publicField);
+
+#feature202 changes by vivek for the Reports module in jul2024
+class Main {
+  public static void main(String[] args) {
+
+    // creates a file object
+    File file = new File("JavaFile.java");
+
+    // deletes the file
+    boolean value = file.delete();
+    if(value) {
+      System.out.println("JavaFile.java is successfully deleted.");
+    }
+    else {
+      System.out.println("File doesn't exit");
+    }
+  }
+}
+
  #feature201 changes by Vinay for the Module PaymentGateway in Jul2024
  public static void main(String[] args) {
+
 
     char[] array = new char[100];
     try {
